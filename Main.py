@@ -92,3 +92,31 @@ plt.plot(train['Close'])
 plt.plot(valid[['Close', 'Predictions']])
 plt.legend(['Training Data', 'Actual Stock Value', 'Predicted Stock Value'], loc='lower right')
 plt.show()
+
+# Show actual prices vs predicted prices
+valid
+
+#The following is done to obtain the predicted value 
+pred_google_quote = web.DataReader('GOOG', data_source = 'yahoo', start='2015-01-01', end = '2020-04-10')
+#Creation of new data frame
+newDF = pred_google_quote.filter(['Close'])
+#Obtain previous 60 days of closing price values and convert dataframe into an array
+prev60days = newDF[-60:].values
+#Scale data in order to have values between 0 and 1
+prev60days = scale.transform(prev60days)
+#Creation of empty list
+x_test = []
+#Append last 60 days
+x_test.append(prev60days)
+#Conversion of x_test set to numpy array
+x_test = np.array(x_test)
+#Reshape data 
+x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
+#Obtain predicted price values
+predictedValues = model.predict(x_test)
+predictedValues = scale.inverse_transform(predictedValues)
+print(predictedValues)
+
+#Obtain actual value for comparison with previous predicted value
+actual_google_quote = web.DataReader('GOOG', data_source = 'yahoo', start = '2020-04-13', end = '2020-04-13')
+print(actual_google_quote)
