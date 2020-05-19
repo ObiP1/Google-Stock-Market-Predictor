@@ -60,7 +60,7 @@ Utilize the optimizer "Adam" and "Mean Squared Error" to compile the model. Then
 **STEP 11)**
 Create a new training dataset containing only the scaled values. Then create an x & y test set, with the x test set containing the previous 60 closing prices.
 
-
+![New Training set](https://user-images.githubusercontent.com/60532479/82370154-14e06700-99e6-11ea-97ee-281e7ef3951f.png)
 
 
 **STEP 12)**
