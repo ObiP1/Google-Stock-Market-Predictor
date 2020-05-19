@@ -5,7 +5,7 @@ Utilizes Yahoo finance as an API & retrieves data for use. Implements machine le
 
 
 **STEP 1)**
-The first step is importing the necessary libraries in which we will be using for this project. 
+The first step is importing the necessary libraries in which we will be using for this project. Feel free to implement a diffent plot style if you would like!
 
 ![Imports](https://user-images.githubusercontent.com/60532479/82355320-0b4c0480-99d0-11ea-93b3-eff985861a27.png)
 
