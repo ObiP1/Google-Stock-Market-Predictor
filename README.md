@@ -34,11 +34,3 @@ Create a new data frame with only closing price values. Then, convert the data i
 
 
 
-
-
-
-
-
-
-
-*NOTE: This was an attempt to get as close to the actual values as I possibly could, there is no solid way to predict the stock market with 100% accuracy.*
