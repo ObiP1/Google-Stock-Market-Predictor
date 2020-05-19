@@ -70,6 +70,7 @@ Convert the x_test set into a numpy array for usability and reshape the data as 
 
 
 **STEP 13**
+Predict the price values for x_test. Once complete, then scale and transform the x_test set. Then, also obtain your Root Mean Squared Error value. The Root Mean Squared Error will measure how much error there is between our datasets. Since we are predicting stocks and the variancy can be quite large, this is a decent RMSE.
 
 
 
