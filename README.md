@@ -76,13 +76,14 @@ Predict the price values for x_test. Once complete, then scale and transform the
 
 
 **STEP 14)**
-Create a function that can be used to call back later on to display and compare our raw predicted values agianst the actual values. Also, create a plot to visualize the differences between our training data, actual values, and predicted data. Based upon our graph, we can see that our predictions weren't incredibly too far off.
+Create a function that can be used to call back later on to display and compare our raw predicted values agianst the actual values. Also, create a plot to visualize the differences between our training data, actual values, and predicted data for the previous 60 days from i (April 10, 2020). Based upon our graph, we can see that our predictions weren't incredibly too far off.
 
 ![Plot1Google](https://user-images.githubusercontent.com/60532479/82373248-4f98ce00-99eb-11ea-9f27-f18d86711617.png)
-![Plot2Google](https://user-images.githubusercontent.com/60532479/82373515-ad2d1a80-99eb-11ea-89c6-b6d73180e1e9.png)
+![PlotGoogle2](https://user-images.githubusercontent.com/60532479/82373822-20cf2780-99ec-11ea-8744-456ec6eab28e.png)
 
 
 **STEP 15)**
+Call back the function from Step 14 to display raw values and obtain a full understanding of how far off our predictions were from the actual closing prices for the prior 60 days to i (April 10, 2020). 
 
 
 
