@@ -50,6 +50,9 @@ Convert the new x and y train datasets to numpy arrays for uability. We also nee
 STEP 9)
 Use a modified version of a Recurrent Neural Network otherwise known as "Long Short Term Memory". Long Short Term Memory makes it easier on us when it comes to remembering past data in memory. 
 
+![GoogleLSTM](https://user-images.githubusercontent.com/60532479/82361843-6cc4a100-99d9-11ea-912a-48585c870396.png)
+
+
 
 
 
