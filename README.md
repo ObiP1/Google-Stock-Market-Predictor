@@ -78,6 +78,9 @@ Predict the price values for x_test. Once complete, then scale and transform the
 **STEP 14)**
 Create a plot to visualize the differences between our training data, actual values, and predicted data. Based upon our graph, we can see that our predictions weren't incredibly too far off.
 
+![Plot1Google](https://user-images.githubusercontent.com/60532479/82373248-4f98ce00-99eb-11ea-9f27-f18d86711617.png)
+
+
 
 
 
