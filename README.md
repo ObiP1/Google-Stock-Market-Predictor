@@ -40,6 +40,9 @@ Implement the use of the minMaxScaler and scale the data. Call back the function
 STEP 7)
 Create both a scaled and training dataset. Use the previous 60 closing price values and append them to the x_train dataset. Use the 61st value and append it to the y_train dataset. It is not manadatory, but you can also test what you have so far with the commented code and see what you are working with.
 
+![CreationTrainingSet](https://user-images.githubusercontent.com/60532479/82360556-91b81480-99d7-11ea-8dee-71cbbf392323.png)
+
+
 
 
 
