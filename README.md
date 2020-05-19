@@ -89,6 +89,9 @@ Call back the function from Step 14 to display raw values and obtain a full unde
 
 
 **STEP 16)**
+Create one more dataframe to once again contain the previous 60 days then scale it again as well. Append the previous 60 values into the x_test set then convert it into an array and reshape it. Once you have modified your x_test set, predict the closing stock value for the next day and obtain the actual closing stcok value in order to compare the two. As you can see, I came up about 59 points shy from the actual stock value. 
+
+![Final Plot](https://user-images.githubusercontent.com/60532479/82375623-da2efc80-99ee-11ea-83f7-1b9c4be29341.png)
 
 
 
