@@ -43,9 +43,12 @@ Create both a scaled and training dataset. Use the previous 60 closing price val
 ![CreationTrainingSet](https://user-images.githubusercontent.com/60532479/82360556-91b81480-99d7-11ea-8dee-71cbbf392323.png)
 
 STEP 8) 
-Convert the new x and y train datasets to numpy arrays for uability. We also need a 3-Dimensional array for usability as well, so we must reshape the data upon converting it into a numpy array.
+Convert the new x and y train datasets to numpy arrays for uability. We also need a 3-Dimensional array for usability as well, so we must reshape the data upon converting it into a numpy array. Call back the function to confirm that the array is in fact 3-Dimensional.
 
 ![ConversionGoogle](https://user-images.githubusercontent.com/60532479/82360989-30447580-99d8-11ea-93cf-6baaed5d6ace.png)
+
+STEP 9)
+Use a modified version of a Recurrent Neural Network otherwise known as "Long Short Term Memory". Long Short Term Memory makes it easier on us when it comes to remembering past data in memory. 
 
 
 
