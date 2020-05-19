@@ -55,6 +55,9 @@ Use a modified version of a Recurrent Neural Network otherwise known as "Long Sh
 **STEP 10)**
 Utilize the optimizer "Adam" and "Mean Squared Error" to compile the model. Then train the model to obtain an understanding of how much loss has taken place throughout the epoch. 
 
+![GoogleCompilation:Trianing](https://user-images.githubusercontent.com/60532479/82369410-f9c12780-99e4-11ea-8e47-62c8fd5c1130.png)
+
+
 
 
 
