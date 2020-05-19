@@ -69,8 +69,14 @@ Convert the x_test set into a numpy array for usability and reshape the data as 
 ![x_test conversion](https://user-images.githubusercontent.com/60532479/82370481-9fc16180-99e6-11ea-964b-7432d6e07382.png)
 
 
-**STEP 13**
+**STEP 13)**
 Predict the price values for x_test. Once complete, then scale and transform the x_test set. Then, also obtain your Root Mean Squared Error value. The Root Mean Squared Error will measure how much error there is between our datasets. Since we are predicting stocks and the variancy can be quite large, this is a decent RMSE.
+
+![PredValue:RMSE](https://user-images.githubusercontent.com/60532479/82372115-62aa9e80-99e9-11ea-84fe-4acd6aae9d84.png)
+
+
+**STEP 14)**
+Create a plot to visualize the differences between our training data, actual values, and predicted data. Based upon our graph, we can see that our predictions weren't incredibly too far off.
 
 
 
