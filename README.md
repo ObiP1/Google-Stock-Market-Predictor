@@ -64,6 +64,13 @@ Create a new training dataset containing only the scaled values. Then create an 
 
 
 **STEP 12)**
+Convert the x_test set into a numpy array for usability and reshape the data as well.
+
+![x_test conversion](https://user-images.githubusercontent.com/60532479/82370481-9fc16180-99e6-11ea-964b-7432d6e07382.png)
+
+
+**STEP 13**
+
 
 
 
