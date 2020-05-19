@@ -42,6 +42,11 @@ Create both a scaled and training dataset. Use the previous 60 closing price val
 
 ![CreationTrainingSet](https://user-images.githubusercontent.com/60532479/82360556-91b81480-99d7-11ea-8dee-71cbbf392323.png)
 
+STEP 8) 
+Convert the new x and y train datasets to numpy arrays for uability. We also need a 3 Dimensional array for usability as well, so we must reshape the data upon converting it into a numpy array. 
+
+
+
 
 
 
