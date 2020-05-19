@@ -14,6 +14,15 @@ Implement the use of pandas' Datareader by grabbing the necessary information we
 STEP 3)
 View the size of your data as a whole
 
+![Google df shape](https://user-images.githubusercontent.com/60532479/82357027-78f93000-99d2-11ea-9646-bc35a28ee326.png)
+
+
+STEP 4) (Optional)
+Visuzlaization of prior closing prices for Google within the stock market.
+
+
+
+
 
 
 
