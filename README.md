@@ -18,7 +18,17 @@ View the size of your data as a whole
 
 
 STEP 4) (Optional)
-Visuzlaization of prior closing prices for Google within the stock market.
+Visualization of prior closing prices for Google within the stock market.
+
+![PrevPricesGoogle](https://user-images.githubusercontent.com/60532479/82357375-050b5780-99d3-11ea-97df-44023f487741.png)
+
+
+STEP 5) 
+Create a new data frame with only closing price values. Then, convert the data into a numpy array for usability. Lastly, train 80% of the the closing prices. You can then view the size of your training data and confirm that it is in fact 80% of the data which was obtained in Step 3.
+
+![PrevPricesGoogle](https://user-images.githubusercontent.com/60532479/82357375-050b5780-99d3-11ea-97df-44023f487741.png)
+
+
 
 
 
