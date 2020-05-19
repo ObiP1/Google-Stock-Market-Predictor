@@ -85,6 +85,11 @@ Create a function that can be used to call back later on to display and compare 
 **STEP 15)**
 Call back the function from Step 14 to display raw values and obtain a full understanding of how far off our predictions were from the actual closing prices for the prior 60 days to i (April 10, 2020). 
 
+![ActualvsPred](https://user-images.githubusercontent.com/60532479/82374550-3264ff00-99ed-11ea-8a2b-ca99d33535ce.png)
+
+
+**STEP 16)**
+
 
 
 
