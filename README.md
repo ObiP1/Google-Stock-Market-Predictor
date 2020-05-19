@@ -31,6 +31,15 @@ Create a new data frame with only closing price values. Then, convert the data i
 
 ![GoogleLen](https://user-images.githubusercontent.com/60532479/82358318-59fb9d80-99d4-11ea-91b1-93be549d5949.png)
 
+STEP 6)
+Implement the use of the minMaxScaler and scale the data. Call back the function to confirm the scaling.
+
+![GoogleScale](https://user-images.githubusercontent.com/60532479/82358803-0a69a180-99d5-11ea-8983-18362d9217f8.png)
+
+
+STEP 7)
+Create both a scaled and training dataset. Use the previous 60 closing price values and append them to the x_train dataset. Use the 61st value and append it to the y_train dataset. It is not manadatory, but you can also test what you have so far with the commented code and see what you are working with.
+
 
 
 
